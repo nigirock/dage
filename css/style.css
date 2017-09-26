@@ -48,3 +48,15 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* =============== */
+
+.header_h1{
+  font-size: 3rem;
+}
+.tabs .tab a{
+  color: #000;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+  color: red;
+}
