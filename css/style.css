@@ -10,7 +10,15 @@
 nav .brand-logo{
   padding-left: 2rem;
 }
+nav ul li{
+    transition: background-color 1s;
+}
 nav ul a{
   font-size: 1.5rem;
   padding: 0 30px;
 }
+nav ul a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
