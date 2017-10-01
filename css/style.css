@@ -1,62 +1,16 @@
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.bg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../img/fon.jpg") no-repeat;
+  background-size: cover;
 }
-
-p {
-  line-height: 2rem;
+nav .brand-logo{
+  padding-left: 2rem;
 }
-
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-/* =============== */
-
-.header_h1{
-  font-size: 3rem;
-}
-.tabs .tab a{
-  color: #000;
-}
-.tabs .tab a:hover, .tabs .tab a.active{
-  color: red;
+nav ul a{
+  font-size: 1.5rem;
+  padding: 0 30px;
 }
