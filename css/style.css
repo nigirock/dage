@@ -1,24 +1,16 @@
-.bg{
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url("../img/fon.jpg") no-repeat;
-  background-size: cover;
-}
-nav .brand-logo{
-  padding-left: 2rem;
-}
-nav ul li{
-    transition: background-color 1s;
-}
-nav ul a{
-  font-size: 1.5rem;
-  padding: 0 30px;
-}
-nav ul a:hover{
-    background-color: #fff;
-    color: #000;
-}
 
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+h1.header{
+    font-size: 2.5rem;
+}
+.section.no-pad-bot{
+    background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 50%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 50%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 50%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
