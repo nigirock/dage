@@ -11,24 +11,50 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
+  <nav class=" teal lighten-2" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">DAGE</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Галерея</a></li>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Галерея</a></li>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="background1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="teal-text orange-text">This is our big Tagline!</h3>
+          <h5 class="teal-text text-lighten-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="background2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="teal-text orange-text">Left Aligned Caption</h3>
+          <h5 class="teal-text text-lighten-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="background3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="teal-text orange-text">Right Aligned Caption</h3>
+          <h5 class="teal-text text-lighten-4">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div>
       <br><br>
       <h1 class="header center orange-text">Мы сделаем ваш праздник незабываемым!</h1>
       <div class="row center">
@@ -49,48 +75,49 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="background1.jpg">
-              <span class="card-title">Card Title</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/1.jpg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <span class="card-title activator grey-text text-darken-4">Мы предлагаем<i class="material-icons right small teal-text text-lighten-2">control_point</i></span>
+
             </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Мы предлагаем<i class="teal-text text-lighten-2 material-icons right">close</i></span>
+              <ul>
+                <li><i class="material-icons teal-text text-lighten-2">check</i>помощь в организации и проведении мероприятий (дни рождения, свадьбы, юбилеи, девичники, мальчишники и тд.)</li>
+                <li><i class="material-icons teal-text text-lighten-2">check</i>разработки индивидуального сценария</li>
+                <li><i class="material-icons teal-text text-lighten-2">check</i>музыкальное сопровождение праздников</li>
+                <li><i class="material-icons teal-text text-lighten-2">check</i>украшение зала</li>
+              </ul>
             </div>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="background2.jpg">
-              <span class="card-title">Мы предлагаем</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/2.jpg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+              <span class="card-title activator grey-text text-darken-4">Галерея<a href="gallery.html"><i class="material-icons right small teal-text text-lighten-2">control_point</i></a></span>
+
             </div>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="background3.jpg">
-              <span class="card-title">Card Title</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3.jpg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <span class="card-title activator grey-text text-darken-4">Как нас найти<i class="material-icons right small teal-text text-lighten-2">control_point</i></span>
+
             </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Контакты<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
         </div>
@@ -98,6 +125,22 @@
 
     </div>
     <br><br>
+  </div>
+
+  <div class="fixed-action-btn">
+    <a id="menu" class="waves-effect waves-light btn-floating btn-large pulse" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">call</i></a>
+  </div>
+
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target orange" data-activates="menu">
+    <div class="tap-target-content">
+      <h5>Наши телефоны</h5>
+      <div class="chip">
+        <img src="img/dashik.jpg" alt="Contact Person">
+        Дарья +375-26-0000000
+      </div>
+    </div>
   </div>
 
   <footer class="page-footer orange">

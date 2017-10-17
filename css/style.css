@@ -8,9 +8,59 @@
 h1.header{
     font-size: 2.5rem;
 }
-.section.no-pad-bot{
-    background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 50%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 50%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 50%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+
+.card .card-image img {
+    border-bottom: 1px solid #e0cccc;
+    max-height: 14rem;
+    min-height: 14rem;
+}
+.slider h3{
+    text-shadow: 2px 4px 1px #000000;
+}
+.slider h5{
+    text-shadow: 2px 4px 1px #000000;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #80cbc4;
+}
+.chip {
+    display: inline-block;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 60px;
+    padding: 0 12px;
+    border-radius: 25px;
+    background-color: #e4e4e4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.chip > img {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 60px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.manikyr{
+    margin-top: 2rem;
+}
+.manikyr img{
+    width: 100%;
+    border: 5px solid #80cbc4;
+    max-height: 50vh;
+}
+.bw {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.bw:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
