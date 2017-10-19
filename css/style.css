@@ -50,7 +50,6 @@ h1.header{
 .manikyr img{
     width: 100%;
     border: 5px solid #80cbc4;
-    max-height: 50vh;
 }
 .bw {
     -webkit-transition: all 1s ease;
@@ -63,4 +62,18 @@ h1.header{
 .bw:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+.tap-target-content h5{
+    margin-left: 3rem;
+}
+.card-reveal .chip{
+   font-size: 1rem;
+    border-radius: 30px;
+}
+.card-reveal .chip img{
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 60px;
+    width: 63px;
+    border-radius: 50%;
 }

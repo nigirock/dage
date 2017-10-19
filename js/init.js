@@ -4,15 +4,16 @@
 
     $('.button-collapse').sideNav();
     $('.slider').slider();
+    $('.collapsible').collapsible();
 
     $("[data-fancybox]").fancybox({
       // Options will go here
     });
-    $('.bw').hover(function () {
+/*    $('.bw').hover(function () {
         $(this).addClass("animated pulse");
     },function () {
         $(this).removeClass("animated pulse");
-    })
+    })*/
 
 
 
